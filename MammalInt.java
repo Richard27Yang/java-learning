@@ -3,6 +3,14 @@
 import java.lang.*;
 //引入包
 
+
+/* 文件名 : Animal.java */
+interface Animal {
+   public void eat();
+   public void travel();
+}
+
+
 /* 文件名 : MammalInt.java */
 public class MammalInt implements Animal{
  
