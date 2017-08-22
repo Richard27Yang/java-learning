@@ -35,6 +35,8 @@ public class EncapTest{
 因此，任何要访问类中私有成员变量的类都要通过这些getter和setter方法。
 通过如下的例子说明EncapTest类的变量怎样被访问：*/
 
+
+
 /* F文件名 : RunEncap.java */
 public class RunEncap{
    public static void main(String args[]){
@@ -47,3 +49,5 @@ public class RunEncap{
                              " Age : "+ encap.getAge());
     }
 }
+
+
